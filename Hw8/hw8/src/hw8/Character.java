@@ -14,7 +14,7 @@ package hw8;
 		}
 		public void takeDamage(int damage) {
 			health -=damage;
-			System.out.println(name="受到"+"傷害，剩餘生命:"+health);
+			System.out.println(name+"受到"+damage+"傷害，剩餘生命:"+health);
 		}
 		public abstract void display();
 	}
